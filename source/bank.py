@@ -10,8 +10,6 @@ from tabulate import tabulate
 class AccountManager(object):
 	"""
 	General Account Class for a Bank Account
-
-	check_balance -- returns the current account balance with name
 	"""
 
 	def __init__(self, account_no, account_name, opening_balance, pin):
