@@ -33,12 +33,11 @@ while True:
 	# Taking the user's choice from options as (int)
 	ch = int(input("\nPlease enter an option: "))
 
-	"""
-	If user choice is 1 (int) - perform withdrawal operation
-	"""
+	
 	if ch == 1:
-
-
+		"""
+		If user choice is 1 (int) - perform withdrawal operation
+		"""
 		# Get User Account Details
 		acc_no = input("Enter account no: ")
 		upin = input("Enter pin: ")
@@ -50,12 +49,11 @@ while True:
 			# Withdraw the specified amount from the respective account
 			accounts[acc_no].withdraw(amt)
 
-
-	"""
-	If user choice is 2 (int) - perform deposit operation
-	"""
+	
 	elif ch == 2:
-		#Perform deposit
+		"""
+		If user choice is 2 (int) - perform deposit operation
+		"""
 
 		# Get User Account Details
 		acc_no = input("Enter account no: ")
@@ -67,10 +65,11 @@ while True:
 			#Deposit the amount to the account object
 			accounts[acc_no].deposit(amt)
 
-	"""
-	If user choice is 3 (int) - perform get statement operation
-	"""
+	
 	elif ch == 3:
+		"""
+		If user choice is 3 (int) - perform get statement operation
+		"""
 
 		# Get User Account Details
 		acc_no = input("Enter account no: ")
@@ -84,11 +83,12 @@ while True:
 			# Return statment of account
 			print(statement)
 
-	"""
-	If user choice is 4 (int) - Create new account with info
-	"""
+	
 	elif ch == 4:
-
+		"""
+		If user choice is 4 (int) - Create new account with info
+		"""
+		
 		# Ask for basic info needed to create an account
 		name = input("Enter Name: ")
 		balance = eval(input("Enter Opening Balance: "))
