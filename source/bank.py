@@ -3,6 +3,7 @@ Bank Management Module
 
 Authors:
 	Vidyadhar Sharma <vidyadhar@speckbit.com>
+
 """
 
 from tabulate import tabulate
